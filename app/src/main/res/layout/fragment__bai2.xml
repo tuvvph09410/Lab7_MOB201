@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_Bai2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All" />
+
+            <Button
+                android:id="@+id/btn_doremon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Doremon" />
+
+            <Button
+                android:id="@+id/btn_nobita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nobita" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_bai2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/all" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
